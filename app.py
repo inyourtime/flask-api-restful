@@ -91,7 +91,7 @@ class ProductSelect(Resource):
         return product, 201
 
 
-api.add_resource(ProductList, '/product/')
+api.add_resource(ProductList, '/product')
 api.add_resource(ProductSelect, '/product/<int:product_id>')
 
 
